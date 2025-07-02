@@ -41,5 +41,5 @@ jobs:
         with:
           branch: gh-pages
           folder: DoodleBUGS/dist
-          target-folder: GSoC
+          target-folder: DoodleBUGS
           clean: true
