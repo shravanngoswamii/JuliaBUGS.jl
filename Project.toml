@@ -58,7 +58,7 @@ GLMakie = "0.10, 0.11"
 GraphMakie = "0.5"
 GraphPlot = "0.6"
 Graphs = "1"
-JSON = "0.21"
+JSON = "0.21, 1"
 JuliaSyntax = "1"
 LinearAlgebra = "1.10"
 LogDensityProblems = "2"
@@ -89,15 +89,4 @@ ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = [
-    "AbstractMCMC",
-    "AdvancedHMC",
-    "AdvancedMH",
-    "ChainRules",
-    "DifferentiationInterface",
-    "LogDensityProblemsAD",
-    "MCMCChains",
-    "Mooncake",
-    "ReverseDiff",
-    "Test"
-]
+test = ["AbstractMCMC", "AdvancedHMC", "AdvancedMH", "ChainRules", "DifferentiationInterface", "LogDensityProblemsAD", "MCMCChains", "Mooncake", "ReverseDiff", "Test"]
